@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: 'Merriweather', serif;
+}
+/* header ralated style */
+.header {
+  height: 100vh;
+  background-image: url('resources/Banner Image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+
+}
+
+.container {
+  color: #FFF;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
