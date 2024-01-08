@@ -135,230 +135,276 @@ img {
 }
 
 /* section 3 related */
-/* .over {
-  height: 450px;
-  width: 1100px;
-  background-color: rgb(255, 242, 242);
-  border-radius: 8px;
 
-  margin: auto;
-  padding-top: 60px;
-  text-align: center;
+.over {
+  border: 2px solid red;
+  height: 500px;
+
+}
+
+.over-item {
+ 
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  border-radius: 8px;
+
 
 }
 
-.over h2 {
-  color: black;
-  padding: 8px;
-}
-.over span{
-   color: red;
-}
-.over a{
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: white;
-  background-color: #FF0000;
-} */
+
+
+
 /* section 4 related style */
-.section4{
-  height: 400px;
-  width: 1020px;
-  border-radius: 8px;
+.section4 {
   display: flex;
-  margin: auto;
-  margin-top: 100px;
-  gap: 20px;
-}
-.section4 h3{
- padding-top: 40px;
-}
-.Deserunt{
-  padding: 20px;
-  height: 300px;
-  margin: auto;
-  width: 90%;
-}
-.Deserunt img{
-  height: 50%;
-  width: 50%;
-  padding-top: 20px;
-}
-.section4  h2{
-  padding: 30px 0;
-}
-.Deserunt1{
   align-items: center;
-  border-radius:50% ;
-  padding: 10px;
-  border: 8px solid red;
-  height: 80%;
-  width: 100%;
-}
-.Deserunt2 img{
-  height: 60%;
-  width: 60%;
-}
- .b24{
-  font-size: 40px;
-}
-/* section related style */
-.section6{
-  margin: auto;
-  margin-top: 30px;
-  height: 700px;
+  gap: 20px;
+  justify-content: center;
   width: 1000px;
-  background: #FFF;
-  border: 2px solid orange;
-  
+  margin: 0 auto;
 }
-.text2{
-  height: 18%;
-  width: 720px;
-  padding-left: 50px;
+
+.Deserunt1 img {
+  height: 100%;
+  width: 100%;
+
+
 }
-.text2 h3{
-padding-top: 70px;
+
+.Deserunt1 {
+  border: 10px solid red;
+  border-radius: 100%;
+  margin-left: 30px;
+  margin-right: 50px;
 }
-.div-images{
-  margin: auto;
-  margin-top: 2%;
-  width: 95%;
-  height: 78%;
+
+.sad img {
+  height: 30%;
+  width: 30%;
+
+}
+
+.a2024 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.Deserunt h3 {
+  color: #F00;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.Deserunt p {
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.sad h5 {
+  color: #F00;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.sad p {
+  padding: 20px 0;
+}
+
+/* section related style */
+
+.section4-image {
+  gap: 30px;
+  padding-left: 40px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
-.div-images{
-  margin: auto;
-  margin: 8px;
-  height: 320px;
-  width: 350px;
-  padding: 5px;
-  border-radius: 8px;
+
+.div-images {
+  display: flex;
+  gap: 20px;
+
 }
-.div-images:hover{
-  transform: scale(1.1);
-  transition: all 1s ease-in-out;
-  filter: drop-shadow(0px 5px 5px rgb(0, 0, 0));
+
+.img {
+  display: flex;
+  gap: 15px;
 }
-/* div last related item */
-.divlast{
+
+.section4-image img {
+  height: 400px;
+}
+
+
+.text2 h3 {
+  color: #F00;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 170px;
+}
+
+.text2 h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  padding-left: 170px;
+
+}
+
+.text2 p {
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 170px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.section4-image img:hover {
+  transition: 0.5s;
+  box-shadow: 0px 0px 20px 15px rgba(218, 102, 123, 1);
+}
+
+/* resources style */
+.divlast {
   height: 450px;
   width: 1200px;
   border-radius: 8px;
-  margin: auto;
-  padding-top: 50px ;
+  margin: 30px auto;
+  padding-top: 50px;
   text-align: center;
   margin-bottom: 50px;
   background: rgba(255, 0, 0, 0.05);
 
-  
+
 }
-.lastimg{
+
+.lastimg {
   height: 150px;
   width: 80%;
   /* background-color: #FF0000; */
   margin: auto;
 
 }
-.divlast img{
+
+.divlast img {
   height: 100px;
   width: 100px;
 }
-.alpotext{
+
+.alpotext {
   height: 80px;
   width: 60%;
   margin: auto;
   line-height: 25px;
-  
-  
-}
-.alpotext h2{
-  padding: 10px 0;
-}
-.alpotext p{
-  line-height: 300px;
-}
-.scarchbox{
-  overflow: hidden;
-  margin: auto;
-  
-  display: flex;
-  background-color: rgb(255, 255, 255);
-  height: 65px;
-  width: 800px;
-  
-  border-radius: 80px;
-}
-input{
-  border: none;
-  
-  padding: 25px;
-  width: 70%;
-  border-radius: 10px;
-}
-button{
-  
-  height: 65px;
-  
-  width: 250px;
-  border-radius: 0px 50px 50px 0px;
-  border: none;
-  background-color: #FF0000;
-  border: 20px solid #FF0000;
-  
-}
-/* <!-- div last div 9 --> */
-.div9{
-  color: white;
-min-height: 400px;
-min-width: 1350px;
-background: #000000;
-margin: auto;
-display: flex;
-flex-wrap: wrap;
+
 
 }
-.address{
-  
+
+.alpotext h2 {
+  padding: 10px 0;
+}
+
+.alpotext p {
+  padding-bottom: 60px;
+}
+
+.scarchbox {
+  overflow: hidden;
+  margin: 48px auto;
+  display: flex;
+  height: 65px;
+  width: 800px;
+
+}
+
+input {
+  padding: 25px;
+  width: 70%;
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px 0px 0px 50px;
+
+}
+
+button {
+
+  height: 65px;
+  width: 250px;
+  border-radius: 0px 50px 50px 0px;
+  border: 0;
+  background-color: #FF0000;
+
+
+}
+
+.description {
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+/* footer related style */
+.div9 {
+  color: white;
+  min-height: 400px;
+  min-width: 1350px;
+  background: #000000;
   margin: auto;
-  
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.address {
+  margin: auto;
   padding: 10px;
   text-align: center;
-  /* background-color: aqua; */
   height: 50px;
   width: 500px;
 }
-.info{
+
+.info {
   margin: auto;
- 
+
   padding: 10px;
   text-align: center;
-  /* background-color: aqua; */
   height: 50px;
   width: 500px;
 }
-.info h4 i{
+
+.info h4 i {
   padding-right: 5px;
 }
-.mindiv{
+
+.mindiv {
   margin: auto;
-  
   padding: 20px;
   text-align: center;
   /* background-color: aqua; */
   height: 60px;
   width: 1000px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
-.mindiv img{
+
+.mindiv img {
   margin: auto;
   height: 30px;
   height: 50px;
 }
-p{
+
+p {
   color: rgba(7, 2, 17, 0.60);
 }
