@@ -88,7 +88,7 @@ img {
 /* banner section style */
 .banner {
   height: 100vh;
-  background: url('../resources/Vectorrr.png');
+  background-image: url('./resources/Banner Image.png');
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 16px;
