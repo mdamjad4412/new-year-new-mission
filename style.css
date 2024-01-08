@@ -137,22 +137,32 @@ img {
 /* section 3 related */
 
 .over {
-  border: 2px solid red;
   height: 500px;
-
-}
-
-.over-item {
- 
   display: flex;
   justify-content: center;
+  margin-left: 150px;
+  margin-right: 150px;
   align-items: center;
+  text-align: center;
   border-radius: 8px;
-
-
+  /* background-color: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); */
+  background-color: gray;
 }
 
+.over-item span {
+  color: red;
+}
 
+.over-item a {
+  color: #FFF;
+  font-size: 10px;
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: red;
+  text-decoration: none;
+  border-radius: 8px;
+  
+}
 
 
 /* section 4 related style */
@@ -162,7 +172,8 @@ img {
   gap: 20px;
   justify-content: center;
   width: 1000px;
-  margin: 0 auto;
+  margin: 120px auto;
+ 
 }
 
 .Deserunt1 img {
@@ -220,31 +231,34 @@ img {
 
 .section4-image {
   gap: 30px;
-  padding-left: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 0 100px;
+  
 
 }
 
 .div-images {
   display: flex;
   gap: 20px;
+  
 
 }
 
 .img {
   display: flex;
   gap: 15px;
+  /* height: 380px; */
 }
-
-.section4-image img {
-  height: 400px;
+.section4-image img{
+  height: 380px;
 }
 
 
 .text2 h3 {
   color: #F00;
+  margin-top: 30px;
   font-size: 24px;
   font-weight: 500;
   text-align: left;
